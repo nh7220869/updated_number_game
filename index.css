@@ -1,0 +1,64 @@
+/* CSS file: style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #729762;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(169, 170, 170, 0.1);
+    border-color: #141614;
+    border-style: dashed;
+    
+}
+
+h1 {
+    color: #0c0b0b;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    -webkit-text-fill-color: #141313;
+}
+
+input[type="number"] {
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #141614;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+guessForm label{
+    -webkit-text-fill-color: #ebe6e6;
+}
